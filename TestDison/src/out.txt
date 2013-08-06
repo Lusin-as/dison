@@ -1,0 +1,809 @@
+Booting  0  at time  82888649157
+Booting  1  at time  28582322665
+Booting  2  at time  71039725235
+Booting  3  at time  20489915689
+Booting  4  at time  98633705960
+Starting simulation.
+DEBUG (3): Node 3 Round 1 start hello timer. Interval 2276 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 3 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 0 new entry 3
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 3 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 2 new entry 3
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 3 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 1 new entry 3
+DEBUG (1): Node 1 Round 1 start hello timer. Interval 2973 Cell 1
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 1 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 2 new entry 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 1 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 0 new entry 1
+DEBUG (3): Node 3 Round 2 start hello timer. Interval 2946 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 3 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 3 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 3 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Node 1 Round 2 start hello timer. Interval 2532 Cell 1
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 1 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 3 new entry 1
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 1 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 1 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (3): Node 3 Round 3 start hello timer. Interval 2064 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 3 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 3 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 3 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Node 2 Round 1 start hello timer. Interval 2548 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 2 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 0 new entry 2
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 2 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 3 new entry 2
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 2 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 1 new entry 2
+DEBUG (1): Node 1 Round 3 start hello timer. Interval 2181 Cell 1
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 1 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 1 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 1 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (0): Node 0 Round 1 start hello timer. Interval 2516 Cell 1
+DEBUG (4): Election Type 5
+DEBUG (4): Node 4 receives a Hello message from node 0 
+DEBUG (4): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 4 new entry 0
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 0 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 3 new entry 0
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 0 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 2 new entry 0
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 0 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 1 new entry 0
+DEBUG (3): Voltage level: 48879 1
+DEBUG (3): Read resource 48879 
+DEBUG (3): Node 3 Ability: 7
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 3 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 3 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 3 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Node 2 Round 2 start hello timer. Interval 2957 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 2 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 2 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 2 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (4): Node 4 Round 1 start hello timer. Interval 2374 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 4 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, Node 0 new entry 4
+DEBUG (1): Voltage level: 48879 1
+DEBUG (1): Read resource 48879 
+DEBUG (1): Node 1 Ability: 7
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 1 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 1 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (0): Node 0 Round 2 start hello timer. Interval 2493 Cell 1
+DEBUG (4): Election Type 5
+DEBUG (4): Node 4 receives a Hello message from node 0 
+DEBUG (4): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 0 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 0 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 0 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (4): Node 4 Round 2 start hello timer. Interval 2796 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 4 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Node 2 Round 3 start hello timer. Interval 2481 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 2 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 2 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 2 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (0): Node 0 Round 3 start hello timer. Interval 2266 Cell 1
+DEBUG (4): Election Type 5
+DEBUG (4): Node 4 receives a Hello message from node 0 
+DEBUG (4): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 0 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 0 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 0 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (4): Node 4 Round 3 start hello timer. Interval 2832 Cell 1
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 4 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Voltage level: 48879 1
+DEBUG (2): Read resource 48879 
+DEBUG (2): Node 2 Ability: 7
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 2 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 2 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (0): Voltage level: 48879 1
+DEBUG (0): Read resource 48879 
+DEBUG (0): Node 0 Ability: 7
+DEBUG (4): Election Type 5
+DEBUG (4): Node 4 receives a Hello message from node 0 
+DEBUG (4): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (3): Election Type 5
+DEBUG (3): Node 3 receives a Hello message from node 0 
+DEBUG (3): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (2): Election Type 5
+DEBUG (2): Node 2 receives a Hello message from node 0 
+DEBUG (2): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (1): Election Type 5
+DEBUG (1): Node 1 receives a Hello message from node 0 
+DEBUG (1): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (4): Voltage level: 48879 1
+DEBUG (4): Read resource 48879 
+DEBUG (4): Node 4 Ability: 6
+DEBUG (0): Election Type 5
+DEBUG (0): Node 0 receives a Hello message from node 4 
+DEBUG (0): DISONManager$DISONManagementUtilityI$addNeighbor OK, updated entry
+DEBUG (3): Election$SendROFTimer$fired Node 3 Broadcast ROF message 
+DEBUG (0): Election Type 6
+DEBUG (0): Node 0 receives a ROF message from node 3 Ability: 7
+DEBUG (2): Election Type 6
+DEBUG (2): Node 2 receives a ROF message from node 3 Ability: 7
+DEBUG (1): Election Type 6
+DEBUG (1): Node 1 receives a ROF message from node 3 Ability: 7
+DEBUG (4): Election$SendROFTimer$fired Node 4 Broadcast ROF message 
+DEBUG (1): Election$SendROCTimer$fired Node 1 Send ROC message to node 3 
+DEBUG (3): Election Type 7
+DEBUG (3): Node 3 receives a ROC message from node 1 
+DEBUG (0): Election$SendROCTimer$fired Node 0 Send ROC message to node 3 
+DEBUG (3): Election Type 7
+DEBUG (3): Node 3 receives a ROC message from node 0 
+DEBUG (2): Election$SendROCTimer$fired Node 2 Send ROC message to node 3 
+DEBUG (3): Election Type 7
+DEBUG (3): Node 3 receives a ROC message from node 2 
+DEBUG (3): Node has request sensing capability
+DEBUG (3): Voltage level: 48879 2
+DEBUG (3): Read resource 48879 
+DEBUG (3): Node 3 Ability: 6 Code: 2
+DEBUG (3): DISONManager$DISONManagementUtilityI$addTask OK, Node 3 new task 0 from host 3
+DEBUG (1): Node has request sensing capability
+DEBUG (1): Voltage level: 48879 2
+DEBUG (1): Read resource 48879 
+DEBUG (1): Node 1 Ability: 6 Code: 2
+DEBUG (1): Send task register to manager 3
+DEBUG (3): Node 3 receives a TREG message from node 1 
+DEBUG (3): DISONManager$DISONManagementUtilityI$updateMember OK, Node 3 new entry 1
+DEBUG (3): DISONManager$DISONManagementUtilityI$addTask OK, Node 3 add new host 1 of task 0 No host 2
+DEBUG (2): Node has request sensing capability
+DEBUG (2): Voltage level: 48879 2
+DEBUG (2): Read resource 48879 
+DEBUG (2): Node 2 Ability: 6 Code: 2
+DEBUG (0): Node has request sensing capability
+DEBUG (0): Voltage level: 48879 2
+DEBUG (0): Read resource 48879 
+DEBUG (0): Node 0 Ability: 8 Code: 2
+DEBUG (2): Send task register to manager 3
+DEBUG (0): Send task register to manager 3
+DEBUG (3): Node 3 receives a TREG message from node 0 
+DEBUG (3): DISONManager$DISONManagementUtilityI$updateMember OK, Node 3 new entry 0
+DEBUG (3): DISONManager$DISONManagementUtilityI$addTask OK, Node 3 add new host 0 of task 0 No host 3
+DEBUG (4): Node has request sensing capability
+DEBUG (4): Voltage level: 48879 2
+DEBUG (4): Read resource 48879 
+DEBUG (4): Node 4 Ability: 2 Code: 2
+DEBUG (4): Decision Timer at node 4 fired
+DEBUG (4): Task: 0 index 0 no host: 0 Role: 1
+DEBUG (1): Decision Timer at node 1 fired
+DEBUG (1): Task: 0 index 0 no host: 0 Role: 1
+DEBUG (4): Task Notice Timer 
+DEBUG (4): Full Operation 
+DEBUG (1): Task Notice Timer 
+DEBUG (1): Full Operation 
+DEBUG (3): Decision Timer at node 3 fired
+DEBUG (3): Task: 0 index 0 no host: 3 Role: 2
+DEBUG (3): Host 3 Cell 1 Cap 6 Code 2
+DEBUG (3): Host 1 Cell 1 Cap 6 Code 2
+DEBUG (3): Host 0 Cell 1 Cap 8 Code 2
+DEBUG (3): Number of redundant nodes: 2
+DEBUG (3): DISONManager$TaskDecisionTimer$fired Node 3 Broadcast TREP message 
+DEBUG (0): Node 0 receives a TREP message from node 3 
+DEBUG (2): Node 2 receives a TREP message from node 3 
+DEBUG (3): Task Notice Timer 
+DEBUG (3): Node 3 switches to forwarding state 
+DEBUG (2): Decision Timer at node 2 fired
+DEBUG (2): Task: 0 index 0 no host: 0 Role: 1
+DEBUG (0): Decision Timer at node 0 fired
+DEBUG (0): Task: 0 index 0 no host: 0 Role: 1
+DEBUG (2): Task Notice Timer 
+DEBUG (2): Full Operation 
+DEBUG (4): 60 0
+DEBUG (1): 60 0
+DEBUG (0): Task Notice Timer 
+DEBUG (0): Full Operation 
+DEBUG (2): 60 0
+DEBUG (4): 60 1
+DEBUG (0): Receive collection data from node: 4 at time 0:4:27.557157194 
+DEBUG (0): Receive collection data from node: 4 at time 0:4:27.567716294 
+DEBUG (1): 60 1
+DEBUG (0): Receive collection data from node: 1 at time 0:4:27.997544964 
+DEBUG (0): Receive collection data from node: 1 at time 0:4:28.015687695 
+DEBUG (0): 60 0
+DEBUG (2): 60 1
+DEBUG (0): Receive collection data from node: 2 at time 0:4:32.007155470 
+DEBUG (4): 60 2
+DEBUG (0): Receive collection data from node: 4 at time 0:4:32.438199685 
+DEBUG (1): 60 2
+DEBUG (0): Receive collection data from node: 1 at time 0:4:32.872438181 
+DEBUG (0): 60 1
+DEBUG (0): Receive collection data from node: 0 at time 0:4:33.195114935 
+DEBUG (2): 60 2
+DEBUG (0): Receive collection data from node: 2 at time 0:4:36.891066597 
+DEBUG (4): 60 3
+DEBUG (0): Receive collection data from node: 4 at time 0:4:37.319669419 
+DEBUG (1): 60 3
+DEBUG (0): Receive collection data from node: 1 at time 0:4:37.734178280 
+DEBUG (0): 60 2
+DEBUG (0): Receive collection data from node: 0 at time 0:4:38.077927435 
+DEBUG (2): 60 3
+DEBUG (0): Receive collection data from node: 2 at time 0:4:41.770873133 
+DEBUG (4): 60 4
+DEBUG (0): Receive collection data from node: 4 at time 0:4:42.204206153 
+DEBUG (1): 60 4
+DEBUG (0): Receive collection data from node: 1 at time 0:4:42.618577685 
+DEBUG (0): 60 3
+DEBUG (0): Receive collection data from node: 0 at time 0:4:42.960739935 
+DEBUG (2): 60 4
+DEBUG (0): Receive collection data from node: 2 at time 0:4:46.654433309 
+DEBUG (4): 60 5
+DEBUG (0): Receive collection data from node: 4 at time 0:4:47.084195793 
+DEBUG (1): 60 5
+DEBUG (0): Receive collection data from node: 1 at time 0:4:47.497758614 
+DEBUG (0): Receive collection data from node: 1 at time 0:4:47.509050143 
+DEBUG (0): 60 4
+DEBUG (0): Receive collection data from node: 0 at time 0:4:47.843552435 
+DEBUG (2): 60 5
+DEBUG (0): Receive collection data from node: 2 at time 0:4:51.535109591 
+DEBUG (4): 60 6
+DEBUG (0): Receive collection data from node: 4 at time 0:4:51.968640974 
+DEBUG (1): 60 6
+DEBUG (0): Receive collection data from node: 1 at time 0:4:52.376283419 
+DEBUG (0): 60 5
+DEBUG (0): Receive collection data from node: 0 at time 0:4:52.726364935 
+DEBUG (2): 60 6
+DEBUG (0): Receive collection data from node: 2 at time 0:4:56.416625102 
+DEBUG (4): 60 7
+DEBUG (0): Receive collection data from node: 4 at time 0:4:56.872144391 
+DEBUG (0): Receive collection data from node: 4 at time 0:4:56.882291500 
+DEBUG (1): 60 7
+DEBUG (0): Receive collection data from node: 1 at time 0:4:57.267411911 
+DEBUG (0): Receive collection data from node: 1 at time 0:4:57.284715408 
+DEBUG (0): 60 6
+DEBUG (0): Receive collection data from node: 0 at time 0:4:57.609177435 
+DEBUG (2): 60 7
+DEBUG (0): Receive collection data from node: 2 at time 0:5:1.303847366 
+DEBUG (4): 60 8
+DEBUG (0): Receive collection data from node: 4 at time 0:5:1.731855099 
+DEBUG (1): 60 8
+DEBUG (0): Receive collection data from node: 1 at time 0:5:2.147920347 
+DEBUG (0): 60 7
+DEBUG (0): Receive collection data from node: 0 at time 0:5:2.491989935 
+DEBUG (2): 60 8
+DEBUG (0): Receive collection data from node: 2 at time 0:5:6.211836903 
+DEBUG (4): 60 9
+DEBUG (0): Receive collection data from node: 4 at time 0:5:6.621152547 
+DEBUG (1): 60 9
+DEBUG (0): Receive collection data from node: 1 at time 0:5:7.026460411 
+DEBUG (0): 60 8
+DEBUG (0): Receive collection data from node: 0 at time 0:5:7.374802435 
+DEBUG (2): 60 9
+DEBUG (0): Receive collection data from node: 2 at time 0:5:11.073210747 
+DEBUG (0): Receive collection data from node: 2 at time 0:5:11.095625920 
+DEBUG (4): 60 10
+DEBUG (0): Receive collection data from node: 4 at time 0:5:11.506253852 
+DEBUG (1): 60 10
+DEBUG (0): Receive collection data from node: 1 at time 0:5:11.911836373 
+DEBUG (0): 60 9
+DEBUG (0): Receive collection data from node: 0 at time 0:5:12.257614935 
+DEBUG (2): 60 10
+DEBUG (0): Receive collection data from node: 2 at time 0:5:15.982451527 
+DEBUG (4): 60 11
+DEBUG (0): Receive collection data from node: 4 at time 0:5:16.384092016 
+DEBUG (1): 60 11
+DEBUG (0): Receive collection data from node: 1 at time 0:5:16.794481027 
+DEBUG (0): Receive collection data from node: 1 at time 0:5:16.812715253 
+DEBUG (0): 60 10
+DEBUG (0): Receive collection data from node: 0 at time 0:5:17.140427435 
+DEBUG (2): 60 11
+DEBUG (0): Receive collection data from node: 2 at time 0:5:20.831526830 
+DEBUG (4): 60 12
+DEBUG (0): Receive collection data from node: 4 at time 0:5:21.269208579 
+DEBUG (1): 60 12
+DEBUG (0): Receive collection data from node: 1 at time 0:5:21.678407412 
+DEBUG (0): 60 11
+DEBUG (0): Receive collection data from node: 0 at time 0:5:22.023239935 
+DEBUG (2): 60 12
+DEBUG (0): Receive collection data from node: 2 at time 0:5:25.715315887 
+DEBUG (4): 60 13
+DEBUG (0): Receive collection data from node: 4 at time 0:5:26.145917599 
+DEBUG (1): 60 13
+DEBUG (0): Receive collection data from node: 1 at time 0:5:26.585206714 
+DEBUG (0): 60 12
+DEBUG (0): Receive collection data from node: 0 at time 0:5:26.906052435 
+DEBUG (2): 60 13
+DEBUG (0): Receive collection data from node: 2 at time 0:5:30.601195386 
+DEBUG (4): 60 14
+DEBUG (0): Receive collection data from node: 4 at time 0:5:31.034055386 
+DEBUG (1): 60 14
+DEBUG (0): Receive collection data from node: 1 at time 0:5:31.445146297 
+DEBUG (0): 60 13
+DEBUG (0): Receive collection data from node: 0 at time 0:5:31.788864935 
+DEBUG (2): 60 14
+DEBUG (0): Receive collection data from node: 2 at time 0:5:35.481429165 
+DEBUG (4): 60 15
+DEBUG (0): Receive collection data from node: 4 at time 0:5:35.915677707 
+DEBUG (1): 60 15
+DEBUG (0): Receive collection data from node: 1 at time 0:5:36.321672213 
+DEBUG (0): 60 14
+DEBUG (0): Receive collection data from node: 0 at time 0:5:36.671677435 
+DEBUG (2): 60 15
+DEBUG (0): Receive collection data from node: 2 at time 0:5:40.367400216 
+DEBUG (4): 60 16
+DEBUG (0): Receive collection data from node: 4 at time 0:5:40.799131072 
+DEBUG (1): 60 16
+DEBUG (0): Receive collection data from node: 1 at time 0:5:41.208360423 
+DEBUG (0): 60 15
+DEBUG (0): Receive collection data from node: 0 at time 0:5:41.554489935 
+DEBUG (2): 60 16
+DEBUG (0): Receive collection data from node: 2 at time 0:5:45.245482519 
+DEBUG (4): 60 17
+DEBUG (0): Receive collection data from node: 4 at time 0:5:45.679120713 
+DEBUG (1): 60 17
+DEBUG (0): Receive collection data from node: 1 at time 0:5:46.094758717 
+DEBUG (0): 60 16
+DEBUG (0): Receive collection data from node: 0 at time 0:5:46.437302435 
+DEBUG (2): 60 17
+DEBUG (0): Receive collection data from node: 2 at time 0:5:50.124861812 
+DEBUG (4): 60 18
+DEBUG (0): Receive collection data from node: 4 at time 0:5:50.565854699 
+DEBUG (1): 60 18
+DEBUG (0): Receive collection data from node: 1 at time 0:5:50.991609329 
+DEBUG (0): 60 17
+DEBUG (0): Receive collection data from node: 0 at time 0:5:51.320114935 
+DEBUG (2): 60 18
+DEBUG (0): Receive collection data from node: 2 at time 0:5:55.009795271 
+DEBUG (4): 60 19
+DEBUG (0): Receive collection data from node: 4 at time 0:5:55.453214291 
+DEBUG (1): 60 19
+DEBUG (0): Receive collection data from node: 1 at time 0:5:55.860460011 
+DEBUG (0): 60 18
+DEBUG (0): Receive collection data from node: 0 at time 0:5:56.202927435 
+DEBUG (2): 60 19
+DEBUG (0): Receive collection data from node: 2 at time 0:5:59.897994092 
+DEBUG (4): 60 20
+DEBUG (0): Receive collection data from node: 4 at time 0:6:0.330289520 
+DEBUG (1): 60 20
+DEBUG (0): Receive collection data from node: 1 at time 0:6:0.740754825 
+DEBUG (0): 60 19
+DEBUG (0): Receive collection data from node: 0 at time 0:6:1.085739935 
+DEBUG (2): 60 20
+DEBUG (0): Receive collection data from node: 2 at time 0:6:4.777175021 
+DEBUG (4): 60 21
+DEBUG (0): Receive collection data from node: 4 at time 0:6:5.212186498 
+DEBUG (1): 60 21
+DEBUG (0): Receive collection data from node: 1 at time 0:6:5.622819649 
+DEBUG (0): 60 20
+DEBUG (0): Receive collection data from node: 0 at time 0:6:5.968552435 
+DEBUG (2): 60 21
+DEBUG (0): Receive collection data from node: 2 at time 0:6:9.679274638 
+DEBUG (4): 60 22
+DEBUG (0): Receive collection data from node: 4 at time 0:6:10.097989709 
+DEBUG (1): 60 22
+DEBUG (0): Receive collection data from node: 1 at time 0:6:10.507463193 
+DEBUG (0): 60 21
+DEBUG (0): Receive collection data from node: 0 at time 0:6:10.851364935 
+DEBUG (2): 60 22
+DEBUG (0): Receive collection data from node: 2 at time 0:6:14.544951498 
+DEBUG (4): 60 23
+DEBUG (0): Receive collection data from node: 4 at time 0:6:14.979795129 
+DEBUG (1): 60 23
+DEBUG (0): Receive collection data from node: 1 at time 0:6:15.386125326 
+DEBUG (0): 60 22
+DEBUG (0): Receive collection data from node: 0 at time 0:6:15.734177435 
+DEBUG (2): 60 23
+DEBUG (0): Receive collection data from node: 2 at time 0:6:19.428618485 
+DEBUG (4): 60 24
+DEBUG (0): Receive collection data from node: 4 at time 0:6:19.865155832 
+DEBUG (1): 60 24
+DEBUG (0): Receive collection data from node: 1 at time 0:6:20.269700761 
+DEBUG (0): 60 23
+DEBUG (0): Receive collection data from node: 0 at time 0:6:20.616989935 
+DEBUG (2): 60 24
+DEBUG (0): Receive collection data from node: 2 at time 0:6:24.308638643 
+DEBUG (0): Receive collection data from node: 2 at time 0:6:24.349120219 
+DEBUG (4): 60 25
+DEBUG (0): Receive collection data from node: 4 at time 0:6:24.743344946 
+DEBUG (1): 60 25
+DEBUG (0): Receive collection data from node: 1 at time 0:6:25.155915952 
+DEBUG (0): 60 24
+DEBUG (0): Receive collection data from node: 0 at time 0:6:25.499802435 
+DEBUG (2): 60 25
+DEBUG (0): Receive collection data from node: 2 at time 0:6:29.196211858 
+DEBUG (4): 60 26
+DEBUG (0): Receive collection data from node: 4 at time 0:6:29.622968378 
+DEBUG (1): 60 26
+DEBUG (0): Receive collection data from node: 1 at time 0:6:30.039521904 
+DEBUG (0): 60 25
+DEBUG (0): Receive collection data from node: 0 at time 0:6:30.382614935 
+DEBUG (2): 60 26
+DEBUG (0): Receive collection data from node: 2 at time 0:6:34.085021089 
+DEBUG (4): 60 27
+DEBUG (0): Receive collection data from node: 4 at time 0:6:34.513684884 
+DEBUG (1): 60 27
+DEBUG (0): Receive collection data from node: 1 at time 0:6:34.915330661 
+DEBUG (0): Receive collection data from node: 1 at time 0:6:34.932527295 
+DEBUG (0): 60 26
+DEBUG (0): Receive collection data from node: 0 at time 0:6:35.265427435 
+DEBUG (2): 60 27
+DEBUG (0): Receive collection data from node: 2 at time 0:6:38.952895259 
+DEBUG (4): 60 28
+DEBUG (0): Receive collection data from node: 4 at time 0:6:39.390027696 
+DEBUG (0): Receive collection data from node: 4 at time 0:6:39.424039537 
+DEBUG (1): 60 28
+DEBUG (0): Receive collection data from node: 1 at time 0:6:39.807100018 
+DEBUG (0): 60 27
+DEBUG (0): Receive collection data from node: 0 at time 0:6:40.148239935 
+DEBUG (2): 60 28
+DEBUG (0): Receive collection data from node: 2 at time 0:6:43.837782943 
+DEBUG (4): 60 29
+DEBUG (0): Receive collection data from node: 4 at time 0:6:44.276899010 
+DEBUG (1): 60 29
+DEBUG (0): Receive collection data from node: 1 at time 0:6:44.681810148 
+DEBUG (0): 60 28
+DEBUG (0): Receive collection data from node: 0 at time 0:6:45.031052435 
+DEBUG (2): 60 29
+DEBUG (0): Receive collection data from node: 2 at time 0:6:48.724883137 
+DEBUG (4): 60 30
+DEBUG (0): Receive collection data from node: 4 at time 0:6:49.160276082 
+DEBUG (1): 60 30
+DEBUG (0): Receive collection data from node: 1 at time 0:6:49.569078188 
+DEBUG (0): 60 29
+DEBUG (0): Receive collection data from node: 0 at time 0:6:49.913864935 
+DEBUG (2): 60 30
+DEBUG (0): Receive collection data from node: 2 at time 0:6:53.602767077 
+DEBUG (4): 60 31
+DEBUG (0): Receive collection data from node: 4 at time 0:6:54.038312609 
+DEBUG (1): 60 31
+DEBUG (0): Receive collection data from node: 1 at time 0:6:54.453294489 
+DEBUG (0): 60 30
+DEBUG (0): Receive collection data from node: 0 at time 0:6:54.796677435 
+DEBUG (2): 60 31
+DEBUG (0): Receive collection data from node: 2 at time 0:6:58.487242776 
+DEBUG (4): 60 32
+DEBUG (0): Receive collection data from node: 4 at time 0:6:58.919614497 
+DEBUG (1): 60 32
+DEBUG (0): Receive collection data from node: 1 at time 0:6:59.338472087 
+DEBUG (0): Receive collection data from node: 1 at time 0:6:59.363221870 
+DEBUG (0): 60 31
+DEBUG (0): Receive collection data from node: 0 at time 0:6:59.679489935 
+DEBUG (2): 60 32
+DEBUG (0): Receive collection data from node: 2 at time 0:7:3.373732622 
+DEBUG (0): Receive collection data from node: 2 at time 0:7:3.390776716 
+DEBUG (4): 60 33
+DEBUG (0): Receive collection data from node: 4 at time 0:7:3.802030271 
+DEBUG (1): 60 33
+DEBUG (0): Receive collection data from node: 1 at time 0:7:4.214204550 
+DEBUG (0): 60 32
+DEBUG (0): Receive collection data from node: 0 at time 0:7:4.562302435 
+DEBUG (2): 60 33
+DEBUG (0): Receive collection data from node: 2 at time 0:7:8.254469939 
+DEBUG (4): 60 34
+DEBUG (0): Receive collection data from node: 4 at time 0:7:8.685834587 
+DEBUG (1): 60 34
+DEBUG (0): Receive collection data from node: 1 at time 0:7:9.096009976 
+DEBUG (0): 60 33
+DEBUG (0): Receive collection data from node: 0 at time 0:7:9.445114935 
+DEBUG (2): 60 34
+DEBUG (0): Receive collection data from node: 2 at time 0:7:13.137267180 
+DEBUG (4): 60 35
+DEBUG (0): Receive collection data from node: 4 at time 0:7:13.572873746 
+DEBUG (1): 60 35
+DEBUG (0): Receive collection data from node: 1 at time 0:7:13.979036098 
+DEBUG (0): 60 34
+DEBUG (0): Receive collection data from node: 0 at time 0:7:14.327927435 
+DEBUG (2): 60 35
+DEBUG (0): Receive collection data from node: 2 at time 0:7:18.020720546 
+DEBUG (4): 60 36
+DEBUG (0): Receive collection data from node: 4 at time 0:7:18.451276482 
+DEBUG (1): 60 36
+DEBUG (0): Receive collection data from node: 1 at time 0:7:18.867341730 
+DEBUG (0): 60 35
+DEBUG (0): Receive collection data from node: 0 at time 0:7:19.210739935 
+DEBUG (2): 60 36
+DEBUG (0): Receive collection data from node: 2 at time 0:7:22.898619744 
+DEBUG (4): 60 37
+DEBUG (0): Receive collection data from node: 4 at time 0:7:23.339399010 
+DEBUG (1): 60 37
+DEBUG (0): Receive collection data from node: 1 at time 0:7:23.749925349 
+DEBUG (0): 60 36
+DEBUG (0): Receive collection data from node: 0 at time 0:7:24.093552435 
+DEBUG (2): 60 37
+DEBUG (0): Receive collection data from node: 2 at time 0:7:27.789473585 
+DEBUG (4): 60 38
+DEBUG (0): Receive collection data from node: 4 at time 0:7:28.223065997 
+DEBUG (1): 60 38
+DEBUG (0): Receive collection data from node: 1 at time 0:7:28.627839807 
+DEBUG (0): 60 37
+DEBUG (0): Receive collection data from node: 0 at time 0:7:28.976364935 
+DEBUG (2): 60 38
+DEBUG (0): Receive collection data from node: 2 at time 0:7:32.675795637 
+DEBUG (4): 60 39
+DEBUG (0): Receive collection data from node: 4 at time 0:7:33.103604951 
+DEBUG (1): 60 39
+DEBUG (0): Receive collection data from node: 1 at time 0:7:33.517503463 
+DEBUG (0): 60 38
+DEBUG (0): Receive collection data from node: 0 at time 0:7:33.859177435 
+DEBUG (2): 60 39
+DEBUG (0): Receive collection data from node: 2 at time 0:7:37.547148797 
+DEBUG (4): 60 40
+DEBUG (0): Receive collection data from node: 4 at time 0:7:37.986203829 
+DEBUG (1): 60 40
+DEBUG (0): Receive collection data from node: 1 at time 0:7:38.394777055 
+DEBUG (0): 60 39
+DEBUG (0): Receive collection data from node: 0 at time 0:7:38.741989935 
+DEBUG (2): 60 40
+DEBUG (0): Receive collection data from node: 2 at time 0:7:42.438689273 
+DEBUG (0): Receive collection data from node: 2 at time 0:7:42.459059774 
+DEBUG (4): 60 41
+DEBUG (0): Receive collection data from node: 4 at time 0:7:42.864942256 
+DEBUG (1): 60 41
+DEBUG (0): Receive collection data from node: 1 at time 0:7:43.281755180 
+DEBUG (0): 60 40
+DEBUG (0): Receive collection data from node: 0 at time 0:7:43.624802435 
+DEBUG (2): 60 41
+DEBUG (0): Receive collection data from node: 2 at time 0:7:47.322325743 
+DEBUG (4): 60 42
+DEBUG (0): Receive collection data from node: 4 at time 0:7:47.752683316 
+DEBUG (0): Receive collection data from node: 4 at time 0:7:47.770703943 
+DEBUG (1): 60 42
+DEBUG (0): Receive collection data from node: 1 at time 0:7:48.162278875 
+DEBUG (0): 60 41
+DEBUG (0): Receive collection data from node: 0 at time 0:7:48.507614935 
+DEBUG (2): 60 42
+DEBUG (0): Receive collection data from node: 2 at time 0:7:52.198836400 
+DEBUG (4): 60 43
+DEBUG (0): Receive collection data from node: 4 at time 0:7:52.635312712 
+DEBUG (1): 60 43
+DEBUG (0): Receive collection data from node: 1 at time 0:7:53.048661911 
+DEBUG (0): 60 42
+DEBUG (0): Receive collection data from node: 0 at time 0:7:53.390427435 
+DEBUG (2): 60 43
+DEBUG (0): Receive collection data from node: 2 at time 0:7:57.078551384 
+DEBUG (4): 60 44
+DEBUG (0): Receive collection data from node: 4 at time 0:7:57.520352982 
+DEBUG (1): 60 44
+DEBUG (0): Receive collection data from node: 1 at time 0:7:57.929200865 
+DEBUG (0): 60 43
+DEBUG (0): Receive collection data from node: 0 at time 0:7:58.273239935 
+DEBUG (2): 60 44
+DEBUG (0): Receive collection data from node: 2 at time 0:8:1.969374701 
+DEBUG (4): 60 45
+DEBUG (0): Receive collection data from node: 4 at time 0:8:2.413587277 
+DEBUG (1): 60 45
+DEBUG (0): Receive collection data from node: 1 at time 0:8:2.812486384 
+DEBUG (0): 60 44
+DEBUG (0): Receive collection data from node: 0 at time 0:8:3.156052435 
+DEBUG (2): 60 45
+DEBUG (0): Receive collection data from node: 2 at time 0:8:6.848311491 
+DEBUG (4): 60 46
+DEBUG (0): Receive collection data from node: 4 at time 0:8:7.282910983 
+DEBUG (1): 60 46
+DEBUG (0): Receive collection data from node: 1 at time 0:8:7.693925601 
+DEBUG (0): 60 45
+DEBUG (0): Receive collection data from node: 0 at time 0:8:8.038864935 
+DEBUG (2): 60 46
+DEBUG (0): Receive collection data from node: 2 at time 0:8:11.731291837 
+DEBUG (4): 60 47
+DEBUG (0): Receive collection data from node: 4 at time 0:8:12.168409014 
+DEBUG (1): 60 47
+DEBUG (0): Receive collection data from node: 1 at time 0:8:12.601976128 
+DEBUG (0): Receive collection data from node: 1 at time 0:8:12.618379339 
+DEBUG (0): 60 46
+DEBUG (0): Receive collection data from node: 0 at time 0:8:12.921677435 
+DEBUG (2): 60 47
+DEBUG (0): Receive collection data from node: 2 at time 0:8:16.611006821 
+DEBUG (4): 60 48
+DEBUG (0): Receive collection data from node: 4 at time 0:8:17.044477169 
+DEBUG (1): 60 48
+DEBUG (0): Receive collection data from node: 1 at time 0:8:17.456697224 
+DEBUG (0): 60 47
+DEBUG (0): Receive collection data from node: 0 at time 0:8:17.804489935 
+DEBUG (2): 60 48
+DEBUG (0): Receive collection data from node: 2 at time 0:8:21.494673808 
+DEBUG (4): 60 49
+DEBUG (0): Receive collection data from node: 4 at time 0:8:21.927884758 
+DEBUG (1): 60 49
+DEBUG (0): Receive collection data from node: 1 at time 0:8:22.338182217 
+DEBUG (0): 60 48
+DEBUG (0): Receive collection data from node: 0 at time 0:8:22.687302435 
+DEBUG (2): 60 49
+DEBUG (0): Receive collection data from node: 2 at time 0:8:26.389449214 
+DEBUG (4): 60 50
+DEBUG (0): Receive collection data from node: 4 at time 0:8:26.812513044 
+DEBUG (1): 60 50
+DEBUG (0): Receive collection data from node: 1 at time 0:8:27.221894981 
+DEBUG (0): 60 49
+DEBUG (0): Receive collection data from node: 0 at time 0:8:27.570114935 
+DEBUG (2): 60 50
+DEBUG (0): Receive collection data from node: 2 at time 0:8:31.260863380 
+DEBUG (4): 60 51
+DEBUG (0): Receive collection data from node: 4 at time 0:8:31.701062815 
+DEBUG (1): 60 51
+DEBUG (0): Receive collection data from node: 1 at time 0:8:32.110841478 
+DEBUG (0): 60 50
+DEBUG (0): Receive collection data from node: 0 at time 0:8:32.452927435 
+DEBUG (2): 60 51
+DEBUG (0): Receive collection data from node: 2 at time 0:8:36.149153753 
+DEBUG (4): 60 52
+DEBUG (0): Receive collection data from node: 4 at time 0:8:36.581662803 
+DEBUG (1): 60 52
+DEBUG (0): Receive collection data from node: 1 at time 0:8:36.991807675 
+DEBUG (0): 60 51
+DEBUG (0): Receive collection data from node: 0 at time 0:8:37.335739935 
+DEBUG (2): 60 52
+DEBUG (0): Receive collection data from node: 2 at time 0:8:41.027754852 
+DEBUG (4): 60 53
+DEBUG (0): Receive collection data from node: 4 at time 0:8:41.487470290 
+DEBUG (1): 60 53
+DEBUG (0): Receive collection data from node: 1 at time 0:8:41.871904127 
+DEBUG (0): 60 52
+DEBUG (0): Receive collection data from node: 0 at time 0:8:42.218552435 
+DEBUG (2): 60 53
+DEBUG (0): Receive collection data from node: 2 at time 0:8:45.907210438 
+DEBUG (4): 60 54
+DEBUG (0): Receive collection data from node: 4 at time 0:8:46.345426242 
+DEBUG (1): 60 54
+DEBUG (0): Receive collection data from node: 1 at time 0:8:46.750962987 
+DEBUG (0): 60 53
+DEBUG (0): Receive collection data from node: 0 at time 0:8:47.101364935 
+DEBUG (2): 60 54
+DEBUG (0): Receive collection data from node: 2 at time 0:8:50.792738987 
+DEBUG (4): 60 55
+DEBUG (0): Receive collection data from node: 4 at time 0:8:51.232251780 
+DEBUG (1): 60 55
+DEBUG (0): Receive collection data from node: 1 at time 0:8:51.641145439 
+DEBUG (0): 60 54
+DEBUG (0): Receive collection data from node: 0 at time 0:8:51.984177435 
+DEBUG (2): 60 55
+DEBUG (0): Receive collection data from node: 2 at time 0:8:55.679289868 
+DEBUG (4): 60 56
+DEBUG (0): Receive collection data from node: 4 at time 0:8:56.125440259 
+DEBUG (1): 60 56
+DEBUG (0): Receive collection data from node: 1 at time 0:8:56.535218956 
+DEBUG (0): Receive collection data from node: 1 at time 0:8:56.550264103 
+DEBUG (0): 60 55
+DEBUG (0): Receive collection data from node: 0 at time 0:8:56.866989935 
+DEBUG (2): 60 56
+DEBUG (0): Receive collection data from node: 2 at time 0:9:0.556975445 
+DEBUG (4): 60 57
+DEBUG (0): Receive collection data from node: 4 at time 0:9:0.996717119 
+DEBUG (1): 60 57
+DEBUG (0): Receive collection data from node: 1 at time 0:9:1.408372602 
+DEBUG (0): 60 56
+DEBUG (0): Receive collection data from node: 0 at time 0:9:1.749802435 
+DEBUG (2): 60 57
+DEBUG (0): Receive collection data from node: 2 at time 0:9:5.437300777 
+DEBUG (4): 60 58
+DEBUG (0): Receive collection data from node: 4 at time 0:9:5.878873495 
+DEBUG (1): 60 58
+DEBUG (0): Receive collection data from node: 1 at time 0:9:6.283387907 
+DEBUG (0): 60 57
+DEBUG (0): Receive collection data from node: 0 at time 0:9:6.632614935 
+DEBUG (2): 60 58
+DEBUG (0): Receive collection data from node: 2 at time 0:9:10.322173201 
+DEBUG (4): 60 59
+DEBUG (0): Receive collection data from node: 4 at time 0:9:10.776014022 
+DEBUG (1): 60 59
+DEBUG (0): Receive collection data from node: 1 at time 0:9:11.168534988 
+DEBUG (0): 60 58
+DEBUG (0): Receive collection data from node: 0 at time 0:9:11.515427435 
+DEBUG (2): 60 59
+DEBUG (0): Receive collection data from node: 2 at time 0:9:15.210356764 
+DEBUG (4): 60 60
+DEBUG (0): Receive collection data from node: 4 at time 0:9:15.643857629 
+DEBUG (1): 60 60
+DEBUG (0): Receive collection data from node: 1 at time 0:9:16.051484816 
+DEBUG (0): 60 59
+DEBUG (0): Receive collection data from node: 0 at time 0:9:16.398239935 
+DEBUG (3): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 3 0 22 0 61 65535
+DEBUG (2): 60 60
+DEBUG (0): Receive collection data from node: 2 at time 0:9:20.089827608 
+DEBUG (4): 60 61
+DEBUG (0): Receive collection data from node: 4 at time 0:9:20.525205294 
+DEBUG (0): Receive collection data from node: 4 at time 0:9:20.540128394 
+DEBUG (1): 60 61
+DEBUG (0): Receive collection data from node: 1 at time 0:9:20.930848850 
+DEBUG (0): 60 60
+DEBUG (0): Receive collection data from node: 0 at time 0:9:21.281052435 
+DEBUG (2): 60 61
+DEBUG (0): Receive collection data from node: 2 at time 0:9:24.990538689 
+DEBUG (3): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 3 0 22 1 61 65535
+DEBUG (0): 60 61
+DEBUG (0): Receive collection data from node: 0 at time 0:9:26.163864935 
+DEBUG (3): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 3 0 22 2 61 65535
+DEBUG (4): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 4 61 9 72 23 65535
+DEBUG (1): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 1 61 18 77 62 3
+DEBUG (2): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 2 61 19 76 55 3
+DEBUG (0): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 0 61 24 267 72 3
+DEBUG (1): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 1 61 18 78 62 3
+DEBUG (4): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 4 61 9 73 23 65535
+DEBUG (2): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 2 61 19 77 55 3
+DEBUG (0): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 0 61 24 271 72 3
+DEBUG (4): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 4 61 9 74 23 65535
+DEBUG (1): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 1 61 18 79 62 3
+DEBUG (2): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 2 61 19 78 55 3
+DEBUG (0): Send a log packet to sink 
+DEBUG (0): Receives a log packet from 0 61 24 275 72 3
+Completed simulation.
