@@ -107,7 +107,7 @@ typedef struct {
 	uint8_t noServices;
 	uint8_t capability;
 	uint8_t cellID;
-	uint8_t cellCode;
+	uint32_t cellCode;
 } group_member_t;
 
 typedef struct {
@@ -133,7 +133,7 @@ typedef nx_struct {
 typedef nx_struct {
 	nx_uint16_t taskID;
 	nx_uint8_t capability;
-	nx_uint8_t cellCode;
+	nx_uint32_t cellCode;
 	nx_uint8_t cellID;
 } dison_treg_msg_t;
 
@@ -158,7 +158,7 @@ typedef struct {
 typedef struct {
 	am_addr_t node;
 	uint8_t capability;
-	uint8_t code;
+	uint32_t code;
 	uint8_t cell;
 } decide_buffer_entry_t;
 

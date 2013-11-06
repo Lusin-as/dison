@@ -61,7 +61,7 @@ implementation{
 	uint32_t currentInterval;
 	uint16_t currentVol;
 	uint8_t currentAbility;
-	uint8_t currentCode;
+	uint32_t currentCode;
 	uint16_t currentTask;
 	uint32_t currentPeriod;
 	uint8_t operationState;
@@ -120,7 +120,7 @@ implementation{
 	{
 		int i;
 		uint8_t capability = 0;
-		uint8_t code = 0;
+		uint32_t code = 0;
 		uint8_t nbs = call DISONManagementUtilityI.getNoNeighbors();
 		
 		for (i = 0; i <nbs; i++) {
@@ -327,7 +327,7 @@ implementation{
 		numMembers = 0;	
 	}
 	
-	command error_t DISONManagementUtilityI.updateMember(am_addr_t node, uint8_t nosv, uint8_t cap, uint8_t cellid, uint8_t code){
+	command error_t DISONManagementUtilityI.updateMember(am_addr_t node, uint8_t nosv, uint8_t cap, uint8_t cellid, uint32_t code){
 		uint8_t idx;
 	 	idx = getMemberIndex(node);
 	 	if (idx == MAX_GROUP_MEMBERS)
@@ -651,7 +651,8 @@ implementation{
 		decide_buffer_entry_t buffer[numMembers];
 		am_addr_t red_nodes[numMembers];
 		int cell, cap, no_redundant_nodes = 0;
-		uint8_t code, x, i, j, midx, didx, noBufItems = 0;
+		uint8_t i, j, midx, didx, noBufItems = 0;
+		uint32_t x, code;
 		bool conf = TRUE;
 		dison_management_msg_t* pld;
 		dison_trep_msg_t trepmsg;
