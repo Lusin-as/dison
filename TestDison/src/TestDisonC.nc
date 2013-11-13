@@ -80,7 +80,7 @@ implementation
 	bool useDison;
 	
 	dison_command_t cmd;
-	uint8_t currentRound;
+	uint8_t currentRound;	//election round
 	
 	void reset()
 	{
@@ -474,11 +474,11 @@ implementation
 	}
 	
 	event void DebugTimer.fired(){
-		/*if (useDison)
+		if (useDison)
 			call DISONManagementAppI.registerTask(querybuf.queryID, querybuf.sensingType, querybuf.queryPeriod);
 		else
-			startCollectingData();*/
-		call DISONManagementAppI.configure(CMD_GET_TOPO, 1);	
+			startCollectingData();
+		//call DISONManagementAppI.configure(CMD_GET_TOPO, 1);	
 	}
 	
 	event void AutoTestTimer.fired(){

@@ -79,7 +79,7 @@ public class TestDison implements MessageListener {
             DisonLogMsg dstat = (DisonLogMsg)msg;
             System.out.println(msg);
             ui.append("Received 1 log msg: Node " + dstat.get_id());
-            WriteToFile("out.txt", dstat);
+            WriteToFile("output/out.txt", dstat);
 	}
         System.out.println(msg);
         if (msg instanceof DisonTopoMsg) {
@@ -156,7 +156,7 @@ public class TestDison implements MessageListener {
     {
          try {
             gateway.send(MoteIF.TOS_BCAST_ADDR, msg);
-            WriteCurrentTimeToFile("out.txt");
+            WriteCurrentTimeToFile("output/out.txt");
         } catch (IOException e) {
             ui.append("Cannot send message to mote " + e.toString());
         }
@@ -208,7 +208,7 @@ public class TestDison implements MessageListener {
     {
          try {
             String fn;
-            fn = msg.get_queryID() + "_" + msg.get_id() + ".txt";
+            fn = "output/" + msg.get_queryID() + "_" + msg.get_id() + ".txt";
             FileWriter outFile = new FileWriter(fn, true);
             PrintWriter out = new PrintWriter(outFile);
             date = new Date();
@@ -287,7 +287,7 @@ public class TestDison implements MessageListener {
         @Override
         public void run() {
             System.out.println("Timer is fired " + round);
-            if (round < 1)
+            if (round < 5)
             {
                 parent.reSendQuery(msg);
                 System.out.println("Resend query");

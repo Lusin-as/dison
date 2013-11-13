@@ -121,8 +121,10 @@ implementation{
 		int i;
 		uint8_t capability = 0;
 		uint32_t code = 0;
+		uint32_t t;
 		uint8_t nbs = call DISONManagementUtilityI.getNoNeighbors();
 		
+		t = 50000;
 		for (i = 0; i <nbs; i++) {
 			if (neighbors[i].active != TRUE)
 				continue;
@@ -131,7 +133,7 @@ implementation{
 			else
 				capability += EXT_LINK_PRI;
 
-			code = code | (2 >> (neighbors[i].cellID - 1));
+			code = code | (1 << (neighbors[i].cellID - 1));
 		}
 		
 		dbg("Management", "Node %d Ability: %d Code: %d\n", TOS_NODE_ID, capability, code);
@@ -142,7 +144,7 @@ implementation{
 		if (mgAddr != INVALID_ADDR)
 		{
 			call TaskRegisterTimer.startOneShot(currentInterval);
-			call TaskDecisionTimer.startOneShot(2*MAX_NEIGHBORS*TR_MIN_INTERVAL);
+			call TaskDecisionTimer.startOneShot(t);
 		}
 		else
 		{
@@ -244,6 +246,7 @@ implementation{
 			case M_TREP:
 				dbg("Management", "Node %d receives a TREP message from node %d \n", TOS_NODE_ID, src);
 				trepmsg = (dison_trep_msg_t*)pld->data;
+
 				for (i = 0; i < trepmsg->noNodes; i++)
 				{
 					dbg("Managment", "Node %d \n", trepmsg->nodeList[i]);
@@ -471,7 +474,6 @@ implementation{
 		isRegister = state;
 	}
 	
-	
 	command error_t DISONManagementAppI.registerTask(uint8_t taskid, uint8_t sensingtype, uint16_t period){
 		currentPeriod = period;
 		if (isRegister)
@@ -652,14 +654,14 @@ implementation{
 		am_addr_t red_nodes[numMembers];
 		int cell, cap, no_redundant_nodes = 0;
 		uint8_t i, j, midx, didx, noBufItems = 0;
-		uint32_t x, code;
+		uint32_t code, x;
 		bool conf = TRUE;
 		dison_management_msg_t* pld;
 		dison_trep_msg_t trepmsg;
 		uint8_t sz = 0;
 		tid = call DISONManagementUtilityI.getTaskIndex(currentTask);
 		titem = tasks[tid];
-		
+
 		dbg("Management", "Decision Timer at node %d fired\n", TOS_NODE_ID);
 		dbg("Management", "Task: %d index %d no host: %d Role: %d\n", 
 		currentTask, tid, titem.noHost, managementRole);

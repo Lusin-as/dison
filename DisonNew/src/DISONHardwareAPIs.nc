@@ -55,7 +55,6 @@ implementation{
 			{
 				sendBusy = TRUE;
 				call DISONManagementComI.logPacket(L_MANA_PKTS, 1);
-				call DISONManagementComI.logBytes(L_MANA_PKTS, len);
 			}	
 		}
 		return SUCCESS;
@@ -85,7 +84,6 @@ implementation{
 			{
 				sendBusy = TRUE;
 				call DISONManagementComI.logPacket(L_MANA_PKTS, 1);
-				call DISONManagementComI.logBytes(L_MANA_PKTS, len);
 			}	
 		}
 		return SUCCESS;
@@ -99,7 +97,6 @@ implementation{
 	event message_t * Receive.receive(message_t *msg, void *payload, uint8_t len){
 		uint8_t client = call DISONManagementPacket.getType(msg);
 		call DISONManagementComI.logPacket(L_MANA_PKTS, 1);
-		call DISONManagementComI.logBytes(L_MANA_PKTS, len);
 		if (client != 0)
 		{
 			signal DISONManagementHardwareI.recieveBeacon[client](msg, payload, len);
