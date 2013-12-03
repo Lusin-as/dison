@@ -8,14 +8,10 @@ CFLAGS += -I$(TOSDIR)/lib/net \
 #CFLAGS += -I /home/trang/workspace/DisonNew/src
 CFLAGS += -I$(TOSROOT)/apps/DisonNew/src \
 
-#CFLAGS += -DCC2420_DEF_RFPOWER=3
+CFLAGS += -DCC2420_DEF_RFPOWER=3
 
-#TFLAGS += -I$(TOSDIR)/types \
-#          -I.
-		  
-PFLAGS += -DTOSH_DATA_LENGTH=90 -DCELL_ID=4 -DUSE_DISON=0
-#-DAUTOEVAL -DUSE_DISON
-#-DNO_DEBUG
+	  
+PFLAGS += -DTOSH_DATA_LENGTH=60 -DCELL_ID=1 -DUSE_DISON=0
 
 include $(MAKERULES)
 
